@@ -52,6 +52,7 @@ class Jobs extends React.Component {
           Loading...
         </div>
       );
+      
     } else {
       return (
         <div className="col">
