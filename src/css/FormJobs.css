@@ -1,0 +1,14 @@
+.container-form{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.container-location{
+    margin: 10px;
+}
+.container-job{
+    margin: 10px;
+}
+.container-button{
+    margin: 10px;
+}
