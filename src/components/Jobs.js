@@ -12,7 +12,7 @@ class Jobs extends React.Component {
               <tr>
                 <th>Title</th>
                 <th>Location</th>
-                <th>Type</th>
+                <th>TYPE OF WORK DAY</th>
               </tr>
             </thead>
       

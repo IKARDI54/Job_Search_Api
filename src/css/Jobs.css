@@ -1,8 +1,13 @@
-table, th, td {
-    
-    border: 1px solid black;
+ 
+ table{
     margin-left: 100px;
     margin-top: 50px;
+ }
+ 
+ th, td {
+    
+    border: 1px solid black;
+   
   }
   th {
     background-color: #4CAF50;

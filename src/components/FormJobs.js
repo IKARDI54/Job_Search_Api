@@ -18,9 +18,10 @@ class FormJobs extends React.Component {
   }
 
   handleChange (evt) {
-    this.setState({ [evt.target.name]: evt.target.value });
+    this.setState({ [evt.target.name]: evt.target.value});
+  
   }
-
+  
   handleSubmit (e) {
     e.preventDefault()
 
@@ -77,13 +78,14 @@ class FormJobs extends React.Component {
                       name="description"
                       placeholder="Add job..." />
                 </div>
-                <div className="container-check">
-                <label> Full time </label>
-              <input
-                checked={this.state.inputTerms}
-                onChange={this.handleChange}
-                type='checkbox' />
-             
+                <div className="container-type">
+                    <label htmlFor="type">Type: </label>
+                    <select 
+                    onChange={this.handleChange}
+                    className="input">
+                      <option value="Partime">Part time</option>
+                      <option value="Fulltime">Full time</option>
+                    </select>
                 </div>
 
 
