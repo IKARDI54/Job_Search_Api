@@ -9,6 +9,7 @@ class FormJobs extends React.Component {
     this.state = {
       description: '',
       location: '',
+      type:'',
       jobs: []
     };
 
@@ -76,6 +77,15 @@ class FormJobs extends React.Component {
                       name="description"
                       placeholder="Add job..." />
                 </div>
+                <div className="container-check">
+                <label> Full time </label>
+              <input
+                checked={this.state.inputTerms}
+                onChange={this.handleChange}
+                type='checkbox' />
+             
+                </div>
+
 
                 <div className="container-button">
                     <button className="button is-info">

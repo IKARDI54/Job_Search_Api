@@ -1,4 +1,6 @@
 import React from 'react';
+import '../css/Jobs.css';
+
 
 class Jobs extends React.Component {
 
@@ -10,6 +12,7 @@ class Jobs extends React.Component {
               <tr>
                 <th>Title</th>
                 <th>Location</th>
+                <th>Type</th>
               </tr>
             </thead>
       
@@ -17,6 +20,7 @@ class Jobs extends React.Component {
             <tr>
               <td>{item.title}</td>
               <td>{item.location}</td>
+              <td>{item.type}</td>
             </tr>
           ))}
         </table>

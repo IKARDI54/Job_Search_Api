@@ -5,11 +5,7 @@ import FormJobs from './components/FormJobs'
 function App() {
   return (
     <div className="App">
-     
-       
         <FormJobs/>
-        
-    
     </div>
   );
 }

@@ -9,6 +9,13 @@
 .container-job{
     margin: 10px;
 }
+.container-check{
+    margin: 10px;
+}
+
 .container-button{
     margin: 10px;
+}
+label{
+    font-weight: bolder;
 }
