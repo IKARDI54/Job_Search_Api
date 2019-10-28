@@ -1,16 +1,13 @@
  
- table{
-    margin-left: 100px;
-    margin-top: 50px;
- }
- 
- th, td {
-    
-    border: 1px solid black;
-   
-  }
   th {
-    background-color: #4CAF50;
+    background-color: rgb(94, 209, 98);
     color: white;
   }
   tr:hover {background-color: #b9b7b7;}
+
+ button{
+   margin-left: 20px;
+   text-justify: auto;
+   font-size: 0.7em;
+
+ }
